@@ -1,0 +1,22 @@
+# Build output
+.build/
+build/
+DerivedData/
+.swiftpm/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# Secrets and signing material (never commit)
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
